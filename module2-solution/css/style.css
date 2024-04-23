@@ -1,0 +1,130 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+p{
+    padding: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: gray;
+    width: 100%;
+    position: relative;
+}
+
+.corner{
+    height: 30%;
+    width: 40%;
+    border: 2px solid black;
+    right: -60%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 125%;
+    font-weight: bold;
+    position: relative;
+}
+
+#div1 {
+    float: left;
+    width: 25%;
+    margin: 4.166%;
+}
+
+#div2 {
+    float: left;
+    width: 25%;
+    margin: 4.166%;
+}
+
+#div3 {
+    float: left;
+    width: 25%;
+    margin: 4.166%;
+}
+
+#corner1{
+    background-color: red;
+}
+
+#corner2{
+    background-color: green;
+}
+
+#corner3{
+    background-color: blue;
+}
+
+
+@media (min-width: 992px) {
+    
+    #div1 {
+        float: left;
+        width: 25%;
+        margin: 4.166%;
+    }
+    
+    #div2 {
+        float: left;
+        width: 25%;
+        margin: 4.166%;
+    }
+    
+    #div3 {
+        float: left;
+        width: 25%;
+        margin: 4.166%;
+    }
+    
+}
+
+@media (max-width: 991px) and (min-width: 768px ) {
+    
+    #div1 {
+        float: left;
+        width: 40%;
+        margin: 4.166%;
+    }
+    
+    #div2 {
+        float: right;
+        width: 40%;
+        margin: 4.166%;
+    }
+    
+    #div3 {
+        width: 91.6%;
+    }
+}
+
+@media (max-width: 767px){
+
+    #div1 {
+        clear: both;
+        width: 91.6%;
+        margin: 4.166%;
+    }
+    
+    #div2 {
+        clear: both;
+        width: 91.6%;
+        margin: 4.166%;
+    }
+    
+    #div3 {
+        clear: both;
+        width: 91.6%;
+        margin: 4.166%;
+    }
+}
