@@ -28,14 +28,14 @@ body{
 
 #Menu-Title{
     margin-top: 40px;
-    font-size: 30pt;
+    font-size: 40pt;
     font-weight: bold;
 }
 
 #Menu{
     background-color: rgb(245,215,161);
     margin-top: 40px;
-    width: 60%;
+    width: 80%;
     height: 100%;
 }
 
