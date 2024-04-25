@@ -1,0 +1,79 @@
+body{
+    font-size: 24px;
+    background-color: rgb(138, 134, 105);
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+#header-nav{
+    background-color: rgb(154, 69, 30);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand{
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    height:100px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand a { /* Food LLC */
+  font-size: 40pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:black;
+}
+
+#Menu-Title{
+    margin-top: 40px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#Menu{
+    background-color: rgb(245,215,161);
+    margin-top: 40px;
+    width: 60%;
+    height: 100%;
+}
+
+#Toggle-Button{
+    margin-top: 32px;
+    background-color:black;
+    width: 60px;
+    height: 60px;
+    padding-left: 16px;
+}
+
+#icon-bar{
+    color:black;
+}
+
+#DropDown ul{
+    margin-top: 0px;
+}
+
+#DropDown li{
+    border-width: 4px;
+    border-color: black;
+}
+
+#DropDown a{
+    color:black;
+    background-color:rgb(245,215,161);
+}
+
+.Dish-Name{
+    padding: 24px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.Dish-Desc{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
