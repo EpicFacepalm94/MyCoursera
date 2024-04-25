@@ -1,5 +1,5 @@
-module2-solution\*.bat
-module3-solution\*.bat
-Week1\*.html
-Week2\*.html
-Week3\*.html
+module2-solution/*.bat
+module3-solution/*.bat
+Week1/
+Week2/
+Week3/
